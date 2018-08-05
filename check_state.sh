@@ -1,5 +1,5 @@
 #!/bin/bash
-retval=`curl -b gogocookie.txt http://GOGOGATE_IP_GOES_HERE/isg/statusDoor.php?numdoor=3`
+retval=`curl -b gogocookie.txt http://GOGOGATE_IP_GOES_HERE/isg/statusDoor.php?numdoor=1`
 
 
 if [ "$retval" == "OK" ]
